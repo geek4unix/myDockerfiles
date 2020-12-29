@@ -1,0 +1,7 @@
+PermitRootLogin yes
+PasswordAuthentication yes
+PermitEmptyPasswords no
+AllowUsers kmk root
+ChallengeResponseAuthentication yes
+X11Forwarding yes
+Subsystem	sftp	internal-sftp
