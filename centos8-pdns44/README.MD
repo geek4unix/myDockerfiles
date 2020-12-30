@@ -10,6 +10,13 @@ jq ( make json readable )
 
 PDNS should boot serving dns, with example.com zone loaded.
 
+What does this Dockerfile do ?
+------------------------------
+
+This Dockerfile spins up a PDNS authorative nameserver, with example.com zone loaded into config, using an sqlite lite backend.
+
+Its a functioning dns with an SQL backend. No More zone files :)
+
 
 Test the Pdns Server
 --------------------
