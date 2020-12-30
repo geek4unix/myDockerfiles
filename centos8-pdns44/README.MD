@@ -15,9 +15,13 @@ Test the Pdns Server
 --------------------
 
 bash-4.4# dig -t NS @localhost example.com +short
+
 dns2.example.com.
+
 dns1.example.com.
+
 bash-4.4# echo $?
+
 0
 
 
